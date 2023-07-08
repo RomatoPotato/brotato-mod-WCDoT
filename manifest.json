@@ -1,0 +1,17 @@
+{
+  "name": "WCDoT",
+  "namespace": "RomatoPotato",
+  "version_number": "1.0.0",
+  "description": "Bla bla bla...",
+  "website_url": "https://github.com/exampleauthor/examplemod",
+  "dependencies": [],
+  "extra": {
+    "godot": {
+      "incompatibilities": [],
+      "authors": [ "RomatoPotato" ],
+      "compatible_mod_loader_version": [ "3.0.0" ],
+      "compatible_game_version": [ "0.6.1.6" ],
+      "config_defaults": {}
+    }
+  }
+}
