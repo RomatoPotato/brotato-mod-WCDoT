@@ -2,8 +2,8 @@
   "name": "WCDoT",
   "namespace": "RomatoPotato",
   "version_number": "1.0.0",
-  "description": "Bla bla bla...",
-  "website_url": "https://github.com/exampleauthor/examplemod",
+  "description": "[EN] This mod changes the appearance of the weapon depending on its tier, which allows you to see which tier weapon you are holding. It's just a cosmetic mod)\n[RU] Этот мод изменяет внешний вид оружия в зависимости от его класса, что позволяет видеть, оружие какого класса вы держите. Это просто косметический мод)",
+  "website_url": "https://github.com/RomatoPotato/brotato-mod-WCDoT",
   "dependencies": [],
   "extra": {
     "godot": {
