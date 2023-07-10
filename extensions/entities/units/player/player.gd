@@ -31,3 +31,9 @@ func add_weapon(weapon:WeaponData, pos:int)->void :
 	
 	if newTexture != null:
 		instance.sprite.texture = newTexture
+		instance._original_sprite = newTexture
+	
+	if instance.stats.custom_on_cooldown_sprite != null:
+		var newCooldownTexture = load(spritesPath + "/" + weapon.weapon_id + "/on_cooldown/" + str(weapon.tier + 1) + ".png")
+		if newCooldownTexture != null:
+			instance.stats.custom_on_cooldown_sprite = newCooldownTexture
