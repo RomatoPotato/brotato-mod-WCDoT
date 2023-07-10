@@ -26,4 +26,8 @@ func add_weapon(weapon:WeaponData, pos:int)->void :
 	# ----------------------------------------
 	# My code (RomatoPotato's)
 	# it sets texture depends on tier
-	instance.sprite.texture = load(spritesPath + "/" + weapon.weapon_id + "/" + str(weapon.tier + 1) + ".png")
+	
+	var newTexture = load(spritesPath + "/" + weapon.weapon_id + "/" + str(weapon.tier + 1) + ".png")
+	
+	if newTexture != null:
+		instance.sprite.texture = newTexture

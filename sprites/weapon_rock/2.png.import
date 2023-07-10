@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/1.png-e319823d09de14dfb0ce86edbb7e8ba3.stex"
+path="res://.import/2.png-668fb3ddb79202ff326106c641dfdf2d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods-unpacked/RomatoPotato-WCDoT/sprites/weapon_claw/1.png"
-dest_files=[ "res://.import/1.png-e319823d09de14dfb0ce86edbb7e8ba3.stex" ]
+source_file="res://mods-unpacked/RomatoPotato-WCDoT/sprites/weapon_rock/2.png"
+dest_files=[ "res://.import/2.png-668fb3ddb79202ff326106c641dfdf2d.stex" ]
 
 [params]
 
