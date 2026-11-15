@@ -2,7 +2,7 @@ extends "res://entities/units/player/player.gd"
 
 var spritesPath = "res://mods-unpacked/RomatoPotato-WCDoT/sprites/"
 
-func add_weapon(weapon:WeaponData, pos:int)->void :
+func add_weapon(weapon:WeaponData, pos:int)->void:
 	.add_weapon(weapon, pos);
 	
 	var added_weapon = current_weapons[-1]
