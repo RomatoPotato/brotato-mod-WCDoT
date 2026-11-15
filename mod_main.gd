@@ -1,10 +1,9 @@
 extends Node
 
-const MENUSTRING_LOG = "RomatoPotato-WCDoT"
+const MOD_DIR = "RomatoPotato-WCDoT/"
+var dir = ""
 
-func _init(modLoader = ModLoader):
-	ModLoaderLog.info("Init", MENUSTRING_LOG)
-	ModLoaderMod.install_script_extension("res://mods-unpacked/RomatoPotato-WCDoT/extensions/entities/units/player/player.gd")
-
-func _ready():
-	ModLoaderLog.info("Ready", MENUSTRING_LOG)
+func _init(_modLoader = ModLoaderMod):
+	dir = ModLoaderMod.get_unpacked_dir() + MOD_DIR
+	
+	ModLoaderMod.install_script_extension(dir + "extensions/entities/units/player/player.gd")

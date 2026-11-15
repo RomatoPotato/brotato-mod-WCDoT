@@ -1,17 +1,40 @@
 {
-  "name": "WCDoT",
-  "namespace": "RomatoPotato",
-  "version_number": "1.0.0",
-  "description": "[EN] This mod changes the appearance of the weapon depending on its tier, which allows you to see which tier weapon you are holding. It's just a cosmetic mod)\n[RU] Этот мод изменяет внешний вид оружия в зависимости от его класса, что позволяет видеть, оружие какого класса вы держите. Это просто косметический мод)",
-  "website_url": "https://github.com/RomatoPotato/brotato-mod-WCDoT",
-  "dependencies": [],
-  "extra": {
-    "godot": {
-      "incompatibilities": [],
-      "authors": [ "RomatoPotato" ],
-      "compatible_mod_loader_version": [ "3.0.0" ],
-      "compatible_game_version": [ "0.6.1.6" ],
-      "config_defaults": {}
-    }
-  }
+	"name": "WCDoT",
+	"namespace": "RomatoPotato",
+	"version_number": "1.2.0",
+	"description": "[EN] This mod changes the appearance of the weapon depending on its tier, which allows you to see which tier weapon you are holding. It's just a cosmetic mod)\n[RU] Этот мод изменяет внешний вид оружия в зависимости от его класса, что позволяет видеть, оружие какого класса вы держите. Это просто косметический мод)",
+	"website_url": "https://github.com/RomatoPotato/brotato-mod-WCDoT",
+	"dependencies": [
+
+	],
+	"extra": {
+		"godot": {
+			"authors": [
+				"RomatoPotato"
+			],
+			"optional_dependencies": [
+
+			],
+			"compatible_game_version": [
+				"0.6.1.6"
+			],
+			"compatible_mod_loader_version": [
+				"3.0.0"
+			],
+			"incompatibilities": [
+
+			],
+			"load_before": [
+
+			],
+			"tags": [
+
+			],
+			"config_schema": {
+
+			},
+			"description_rich": "",
+			"image": null
+		}
+	}
 }
