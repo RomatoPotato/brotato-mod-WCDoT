@@ -4,35 +4,23 @@
 	"version_number": "1.3.0",
 	"description": "[EN] This mod changes the appearance of weapons depending on their tier, allowing you to see what tier of weapon you are holding without having to enable weapon highlighting in the settings. It's just a cosmetic mod) Supports the Abyssal Terrors and Primal Dread DLCs\n[RU] Этот мод изменяет внешний вид оружия в зависимости от его тира, что позволяет видеть, оружие какого тира вы держите, вместо включения подсветки оружия в настройках. Это просто косметический мод) Поддерживает дополнения Abyssal Terrors и Primal Dread",
 	"website_url": "https://github.com/RomatoPotato/brotato-mod-WCDoT",
-	"dependencies": [
-
-	],
+	"dependencies": [],
 	"extra": {
 		"godot": {
 			"authors": [
 				"RomatoPotato"
 			],
-			"optional_dependencies": [
-
-			],
+			"optional_dependencies": [],
 			"compatible_game_version": [
-				"0.6.1.6"
+				"1.2.0.1"
 			],
 			"compatible_mod_loader_version": [
-				"3.0.0"
+				"6.3.0"
 			],
-			"incompatibilities": [
-
-			],
-			"load_before": [
-
-			],
-			"tags": [
-
-			],
-			"config_schema": {
-
-			},
+			"incompatibilities": [],
+			"load_before": [],
+			"tags": [],
+			"config_schema": {},
 			"description_rich": "",
 			"image": null
 		}
